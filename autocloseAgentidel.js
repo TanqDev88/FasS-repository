@@ -1,9 +1,6 @@
 function lambda(input, callback) {
-    // Set conversation data.
     let conversation = input.payload;
-    // Some processing ...
-    // Result can be either an object or array.
-    // Hint: Make sure to only return each type once.
+
     let result = [
         {
             type: "systemMessage",
