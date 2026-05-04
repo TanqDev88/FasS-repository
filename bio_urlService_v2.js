@@ -440,7 +440,7 @@ async function build_urlClientNotificationToken(url_base) {
 }
 
 function buildUrl(state, config) {
-    return `${config.url_base_link}/?id=${state}`;
+    return `${config.url_base_link}/?id=${state}&canal=LP`;
 }
 
 function buildCostumer(payload, authReqId, clientHash) {
